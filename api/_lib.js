@@ -5,7 +5,8 @@ const COOKIE = 'hk_session';
 const MAX_AGE = 60 * 60 * 24 * 90; // 90 jours
 
 export function sql() {
-  const url = process.env.DATABASE_URL || process.env.POSTGRES_URL;
+  const url = process.env.DATABASE_URL || process.env.POSTGRES_URL || process.env.STORAGE_URL
+    || Object.entries(process.env).find(([k, v]) => k.endsWith('_DATABASE_URL') && v)?.[1];
   if (!url) throw new Error('DATABASE_URL manquante');
   return neon(url);
 }
