@@ -276,7 +276,7 @@
       "address": "121 Kweilin Street, Sham Shui Po",
       "lat": 22.330483,
       "lng": 114.161229,
-      "why": "Cheung fun recommandés par le Michelin, l'en-cas pour la route.",
+      "why": "Cheung fun recommandés par le Michelin, l'en-cas pour la route. Environ 10 HKD les 4 rouleaux, la queue avance vite.",
       "order": [
         "Cheung fun"
       ],
@@ -571,20 +571,20 @@
     },
     {
       "id": "porcelaine-wan-chai",
-      "name": "Boutique de porcelaine (nom à identifier)",
+      "name": "King Tak Hong Porcelain",
       "type": "souvenirs",
-      "approx": true,
       "district": "Wan Chai",
-      "address": "Wan Chai (adresse non donnée)",
-      "lat": 22.2774,
-      "lng": 114.1727,
-      "why": "Commerce familial depuis 1954, deux étages de tasses, bols et céramiques bleu et blanc ; fournit hôtels et restaurants.",
-      "warning": "Position approximative : la créatrice donne l'adresse en message privé uniquement.",
+      "address": "128 Queen's Road East, Wan Chai",
+      "lat": 22.276006,
+      "lng": 114.17046,
+      "why": "Commerce familial depuis 1954, deux étages de tasses, bols et céramiques bleu et blanc ; fournit hôtels et restaurants. Les tasses exposées dans l'escalier sont impressionnantes.",
+      "warning": "Les allées sont très étroites, on ne peut quasiment pas se croiser.",
       "order": [],
       "source": {
         "account": "@hadamundo.pattern",
         "url": "https://www.instagram.com/p/De_-5cOy4ja/"
-      }
+      },
+      "nameZh": "景德行瓷業"
     },
     {
       "id": "man-wa-lane",
@@ -2092,6 +2092,600 @@
       "source": {
         "account": "SCMP",
         "url": "https://amp.scmp.com/magazines/style/news-trends/article/2178740/7-best-hong-kong-running-routes-great-views-help-your"
+      }
+    },
+    {
+      "id": "lin-heung-lau",
+      "name": "Lin Heung Lau",
+      "nameZh": "蓮香樓",
+      "type": "food",
+      "tags": [
+        "dim sum",
+        "old school"
+      ],
+      "district": "Sheung Wan",
+      "address": "249-253 Des Voeux Road Central, Sheung Wan",
+      "lat": 22.286684,
+      "lng": 114.152294,
+      "why": "Dim sum à l'ancienne, l'héritier de la mythique Lin Heung Tea House.",
+      "order": [
+        "Har gow",
+        "Siu mai"
+      ],
+      "source": {
+        "account": "@bellamanzano",
+        "url": "https://www.instagram.com/p/Ddsr1aNR-Xh/"
+      }
+    },
+    {
+      "id": "ying-kee-noodle",
+      "name": "Ying Kee Noodle",
+      "type": "food",
+      "tags": [
+        "nouilles",
+        "près de l'hôtel"
+      ],
+      "district": "Sai Ying Pun",
+      "address": "28 High Street, Sai Ying Pun",
+      "lat": 22.285089,
+      "lng": 114.142386,
+      "why": "Soupe de nouilles au bœuf assorti, à quelques minutes à pied de l'hôtel.",
+      "order": [
+        "Assorted beef noodle soup"
+      ],
+      "source": {
+        "account": "@bellamanzano",
+        "url": "https://www.instagram.com/p/Ddsr1aNR-Xh/"
+      }
+    },
+    {
+      "id": "dim-dim-sum",
+      "name": "Dim Dim Sum",
+      "nameZh": "點點心",
+      "type": "food",
+      "tags": [
+        "dim sum",
+        "pas cher"
+      ],
+      "district": "Jordan",
+      "address": "28 Man Wui Street, Jordan (autre adresse : 106 Tung Choi St, Mong Kok)",
+      "lat": 22.307013,
+      "lng": 114.166061,
+      "why": "Chaîne de dim sum abordable, ouverte tard ; noté 5 étoiles dans le reel.",
+      "order": [
+        "Har gow"
+      ],
+      "source": {
+        "account": "@bellamanzano",
+        "url": "https://www.instagram.com/p/Ddsr1aNR-Xh/"
+      }
+    },
+    {
+      "id": "lam-hing",
+      "name": "Lam Hing Restaurant",
+      "type": "food",
+      "tags": [
+        "fast food local",
+        "pas cher"
+      ],
+      "district": "Wan Chai",
+      "address": "14 Spring Garden Lane, Wan Chai",
+      "lat": 22.27592,
+      "lng": 114.172949,
+      "why": "Assiettes de riz copieuses pour environ 39 HKD.",
+      "order": [
+        "Porc aigre-doux",
+        "Poulet épicé"
+      ],
+      "source": {
+        "account": "@bellamanzano",
+        "url": "https://www.instagram.com/p/Ddsr1aNR-Xh/"
+      }
+    },
+    {
+      "id": "saint-noodles",
+      "name": "Saint Noodles",
+      "type": "food",
+      "tags": [
+        "nouilles"
+      ],
+      "district": "Central",
+      "address": "30 Cochrane Street, Central",
+      "lat": 22.282748,
+      "lng": 114.154193,
+      "why": "Bol de nouilles épicées garni de pois chiches et de bœuf, juste à côté des escalators de Mid-Levels.",
+      "order": [
+        "Supreme noodles"
+      ],
+      "source": {
+        "account": "@bellamanzano",
+        "url": "https://www.instagram.com/p/Ddsr1aNR-Xh/"
+      }
+    },
+    {
+      "id": "one-dim-sum",
+      "name": "One Dim Sum",
+      "nameZh": "一點心",
+      "type": "food",
+      "tags": [
+        "dim sum",
+        "Michelin"
+      ],
+      "district": "Prince Edward",
+      "address": "G/F, 209A Tung Choi Street, Prince Edward",
+      "lat": 22.325482,
+      "lng": 114.169148,
+      "why": "Le dim sum préféré de la créatrice ; table recommandée par le guide Michelin.",
+      "order": [
+        "Cheung fun",
+        "Bao"
+      ],
+      "source": {
+        "account": "@celinedinh_",
+        "url": "https://www.instagram.com/p/DeWxyGMhfuf/"
+      }
+    },
+    {
+      "id": "australia-dairy-company",
+      "name": "Australia Dairy Company",
+      "nameZh": "澳洲牛奶公司",
+      "type": "food",
+      "tags": [
+        "cha chaan teng",
+        "petit-déj"
+      ],
+      "district": "Jordan",
+      "address": "47 Parkes Street, Jordan",
+      "lat": 22.304628,
+      "lng": 114.170544,
+      "why": "Cha chaan teng culte : œufs brouillés ultra crémeux et service express.",
+      "warning": "Souvent la queue et le service est très rapide (on ne traîne pas à table).",
+      "order": [
+        "Egg toast",
+        "Œufs brouillés",
+        "Pudding au lait"
+      ],
+      "source": {
+        "account": "@celinedinh_",
+        "url": "https://www.instagram.com/p/DeWxyGMhfuf/"
+      }
+    },
+    {
+      "id": "bakehouse",
+      "name": "Bakehouse",
+      "type": "food",
+      "tags": [
+        "boulangerie",
+        "egg tart"
+      ],
+      "district": "Wan Chai",
+      "address": "14 Tai Wong Street East, Wan Chai (autres boutiques : SoHo, TST)",
+      "lat": 22.275873,
+      "lng": 114.171388,
+      "why": "La tarte au jaune d'œuf version sourdough que tout le monde recommande.",
+      "order": [
+        "Sourdough egg tart"
+      ],
+      "source": {
+        "account": "@celinedinh_",
+        "url": "https://www.instagram.com/p/DeWxyGMhfuf/"
+      }
+    },
+    {
+      "id": "wai-kee",
+      "name": "Wai Kee",
+      "nameZh": "維記咖啡粉麵",
+      "type": "food",
+      "tags": [
+        "cha chaan teng"
+      ],
+      "district": "Sham Shui Po",
+      "address": "62-66 Fuk Wing Street, Sham Shui Po",
+      "lat": 22.331622,
+      "lng": 114.163394,
+      "why": "1er arrêt de la tournée de Sham Shui Po : nouilles au foie de porc et au bœuf.",
+      "order": [
+        "Macaroni foie de porc & bœuf",
+        "Nouilles luncheon meat & bœuf"
+      ],
+      "source": {
+        "account": "@paulgor.kwok",
+        "url": "https://www.instagram.com/p/DeJSUC1RVT1/"
+      }
+    },
+    {
+      "id": "kung-wo-beancurd",
+      "name": "Kung Wo Beancurd Factory",
+      "nameZh": "公和荳品廠",
+      "type": "food",
+      "tags": [
+        "tofu",
+        "dessert"
+      ],
+      "district": "Sham Shui Po",
+      "address": "118 Pei Ho Street, Sham Shui Po",
+      "lat": 22.33108,
+      "lng": 114.163474,
+      "why": "2e arrêt de la tournée : maison du tofu artisanal.",
+      "order": [
+        "Tofu pudding",
+        "Tofu frit"
+      ],
+      "source": {
+        "account": "@paulgor.kwok",
+        "url": "https://www.instagram.com/p/DeJSUC1RVT1/"
+      }
+    },
+    {
+      "id": "sun-heung-yuen",
+      "name": "Sun Heung Yuen",
+      "nameZh": "新香園（堅記）",
+      "type": "food",
+      "tags": [
+        "cha chaan teng",
+        "sandwich"
+      ],
+      "district": "Sham Shui Po",
+      "address": "38 Kweilin Street, Sham Shui Po",
+      "lat": 22.329869,
+      "lng": 114.160893,
+      "why": "4e arrêt de la tournée : réputé pour son sandwich bœuf-œuf grillé.",
+      "order": [
+        "Sandwich bœuf & œuf"
+      ],
+      "source": {
+        "account": "@paulgor.kwok",
+        "url": "https://www.instagram.com/p/DeJSUC1RVT1/"
+      }
+    },
+    {
+      "id": "nga-yuen-cake-shop",
+      "name": "Nga Yuen Cake Shop",
+      "nameZh": "雅園餅店",
+      "type": "food",
+      "tags": [
+        "boulangerie",
+        "old school"
+      ],
+      "district": "North Point",
+      "address": "G/F, Shop C, 54 Tanner Road, North Point",
+      "lat": 22.290695,
+      "lng": 114.202891,
+      "why": "Boulangerie de quartier ouverte depuis des décennies.",
+      "order": [
+        "Egg tart",
+        "Pineapple bun"
+      ],
+      "source": {
+        "account": "@always.elin",
+        "url": "https://www.instagram.com/p/DeO6ObISIHH/"
+      }
+    },
+    {
+      "id": "yuk-kin-fast-food",
+      "name": "Yuk Kin Fast Food",
+      "type": "food",
+      "tags": [
+        "local",
+        "plein air"
+      ],
+      "district": "Sheung Wan",
+      "address": "6 Tai Ping Shan Street, Sheung Wan",
+      "lat": 22.28424,
+      "lng": 114.148778,
+      "why": "Cantine très locale en plein air, où passent les gens après le boulot ; grosses portions.",
+      "order": [],
+      "source": {
+        "account": "@thejournalhk",
+        "url": "https://www.instagram.com/p/DdmB0Tkh56Y/"
+      }
+    },
+    {
+      "id": "kwan-kee-claypot",
+      "name": "Kwan Kee Claypot Rice",
+      "nameZh": "坤記煲仔小菜",
+      "type": "food",
+      "tags": [
+        "claypot",
+        "près de l'hôtel"
+      ],
+      "district": "Sai Ying Pun",
+      "address": "263 Queen's Road West, Sai Ying Pun",
+      "lat": 22.287041,
+      "lng": 114.143035,
+      "why": "Riz en claypot avec la croûte dorée au fond, à 5 min à pied de l'hôtel.",
+      "warning": "Espèces uniquement ; il faut prévoir de faire la queue.",
+      "order": [
+        "Claypot rice"
+      ],
+      "source": {
+        "account": "@tuckintoronto",
+        "url": "https://www.instagram.com/p/DefUQAbqvaq/"
+      }
+    },
+    {
+      "id": "golden-bowl",
+      "name": "Golden Bowl",
+      "nameZh": "金飯館叄·零",
+      "type": "food",
+      "tags": [
+        "pas cher",
+        "curry"
+      ],
+      "district": "Wan Chai",
+      "address": "Shop D-E, G/F, Diamond Building, 6-18 Tin Lok Lane, Wan Chai",
+      "lat": 22.278275,
+      "lng": 114.179586,
+      "why": "Curry et nouilles de riz sautées au bœuf, portions énormes pour 78-88 HKD.",
+      "order": [
+        "Curry",
+        "Beef chow fun"
+      ],
+      "source": {
+        "account": "@hungrybellyinhk",
+        "url": "https://www.instagram.com/p/DdGfhmEpwgB/"
+      }
+    },
+    {
+      "id": "fat-j-char-siu",
+      "name": "FAT J Char Siu",
+      "type": "food",
+      "tags": [
+        "siu mei"
+      ],
+      "district": "Wan Chai",
+      "address": "Rialto Building, 2 Landale Street, Wan Chai",
+      "lat": 22.277231,
+      "lng": 114.169423,
+      "why": "Char siu, poulet au soja et oie rôtie tous jugés excellents ; ça vaut l'attente.",
+      "order": [
+        "Char siu",
+        "Oie rôtie",
+        "Poulet au soja"
+      ],
+      "source": {
+        "account": "@eat.with.kels",
+        "url": "https://www.instagram.com/p/Dfb-sbjTDa2/"
+      }
+    },
+    {
+      "id": "minato",
+      "name": "Minato",
+      "type": "food",
+      "tags": [
+        "teppanyaki",
+        "dîner chic"
+      ],
+      "district": "Wan Chai",
+      "address": "Shop G4-G6, 23 Harbour Road, Wan Chai",
+      "lat": 22.281026,
+      "lng": 114.175092,
+      "why": "Teppanyaki zen pour un dîner plaisir ; menu autour de 1 288 HKD par personne.",
+      "order": [
+        "Foie gras"
+      ],
+      "source": {
+        "account": "@eat.with.kels",
+        "url": "https://www.instagram.com/p/Dfb-sbjTDa2/"
+      }
+    },
+    {
+      "id": "cafe-lemo",
+      "name": "Café Lemo",
+      "type": "cafe",
+      "tags": [
+        "nouveau",
+        "près de l'hôtel"
+      ],
+      "district": "Sai Ying Pun",
+      "address": "Shop B, 29-33 High Street, Sai Ying Pun",
+      "lat": 22.28525,
+      "lng": 114.142626,
+      "why": "Café-bistrot français sur deux niveaux (bar à vin en bas), joli et à prix raisonnables, tout près de l'hôtel.",
+      "order": [],
+      "source": {
+        "account": "@9__18",
+        "url": "https://www.instagram.com/p/Dcnvf8_MqLQ/"
+      }
+    },
+    {
+      "id": "kaiten",
+      "name": "Kaiten",
+      "type": "souvenirs",
+      "tags": [
+        "objets à collectionner",
+        "kawaii"
+      ],
+      "district": "Mong Kok",
+      "address": "11/F, Langham Place, 8 Argyle Street, Mong Kok",
+      "lat": 22.318212,
+      "lng": 114.168674,
+      "why": "Boutique cachée de petits objets à collectionner, une vraie chasse au trésor.",
+      "approx": true,
+      "warning": "Point placé sur Langham Place : la boutique est au 11e étage.",
+      "order": [],
+      "source": {
+        "account": "@kevin_lee_345",
+        "url": "https://www.instagram.com/p/DdHPd99vCrh/"
+      }
+    },
+    {
+      "id": "twemco",
+      "name": "Twemco",
+      "type": "souvenirs",
+      "tags": [
+        "horloges",
+        "design HK"
+      ],
+      "district": "Tai Kok Tsui",
+      "address": "Room 5, 2/F, 64-76 Larch Street, Tai Kok Tsui",
+      "lat": 22.322598,
+      "lng": 114.163765,
+      "why": "Les horloges à palettes hongkongaises des banques et des salons d'antan, toujours assemblées à la main.",
+      "warning": "Adresse de la société sur Google Maps : vérifier les horaires d'ouverture au public avant d'y aller.",
+      "order": [
+        "Horloge bilingue noir et blanc"
+      ],
+      "source": {
+        "account": "@lillyng750",
+        "url": "https://www.instagram.com/p/Dca3w_0IYGh/"
+      }
+    },
+    {
+      "id": "gift-idea",
+      "name": "GIFT IDEA",
+      "type": "souvenirs",
+      "tags": [
+        "papeterie japonaise"
+      ],
+      "district": "Sheung Wan",
+      "address": "4/F, Yue's House, 304-306 Des Voeux Road Central, Sheung Wan",
+      "lat": 22.286738,
+      "lng": 114.150779,
+      "why": "Paradis de la papeterie japonaise caché dans un immeuble anodin, idéal pour les cadeaux.",
+      "warning": "Prendre l'ascenseur et appuyer sur 4.",
+      "order": [],
+      "source": {
+        "account": "@jordshore",
+        "url": "https://www.instagram.com/p/DeSS_NDJvZ5/"
+      }
+    },
+    {
+      "id": "tutto",
+      "name": "tutto select shop",
+      "type": "shopping",
+      "tags": [
+        "vintage",
+        "appareils photo"
+      ],
+      "district": "Causeway Bay",
+      "address": "1/F, 21 Lan Fong Road, Causeway Bay",
+      "lat": 22.27883,
+      "lng": 114.18454,
+      "why": "Select shop de design et objets rétro ; une boutique d'appareils photo vintage (Leica, Hasselblad) partage l'espace. L'ascenseur manuel vaut le détour.",
+      "warning": "Ouvert du lundi au samedi de 12 h à 19 h 30, fermé le dimanche et les jours fériés.",
+      "order": [],
+      "source": {
+        "account": "@petitfeilee",
+        "url": "https://www.instagram.com/p/DfR2IUPiDdB/"
+      }
+    },
+    {
+      "id": "elegant-tang-dynasty",
+      "name": "Elegant Tang Dynasty",
+      "type": "souvenirs",
+      "tags": [
+        "souvenirs"
+      ],
+      "district": "Tsim Sha Tsui",
+      "address": "Shop E1, Alpha House, 27-33 Nathan Road, Tsim Sha Tsui",
+      "lat": 22.296385,
+      "lng": 114.17193,
+      "why": "Boutique de souvenirs devenue virale, face à iSquare.",
+      "order": [],
+      "source": {
+        "account": "@travelwithdanicas",
+        "url": "https://www.instagram.com/p/DdvogarqB2g/"
+      }
+    },
+    {
+      "id": "hak-dei",
+      "name": "Hak Dei",
+      "type": "souvenirs",
+      "tags": [
+        "rétro",
+        "maison"
+      ],
+      "district": "Mong Kok",
+      "address": "G04c, 618 Shanghai Street, Mong Kok",
+      "lat": 22.319601,
+      "lng": 114.16815,
+      "why": "Sélection d'objets du quotidien hongkongais rétro, à prix raisonnables.",
+      "order": [],
+      "source": {
+        "account": "@lifebysuee",
+        "url": "https://www.instagram.com/p/Dd3JBVLtqyz/"
+      }
+    },
+    {
+      "id": "shanghai-street-kitchenware",
+      "name": "Shanghai Street – rue des ustensiles",
+      "nameZh": "上海街",
+      "type": "shopping",
+      "tags": [
+        "cuisine",
+        "inox"
+      ],
+      "district": "Yau Ma Tei",
+      "address": "Autour du 312 Shanghai Street, Yau Ma Tei",
+      "lat": 22.311437,
+      "lng": 114.169813,
+      "why": "Rue des boutiques d'ustensiles de cuisine, un peu comme Kappabashi à Tokyo.",
+      "order": [],
+      "source": {
+        "account": "@hodobilasn",
+        "url": "https://www.instagram.com/p/DeY9atpBJOQ/"
+      }
+    },
+    {
+      "id": "yuet-tung-china-works",
+      "name": "Yuet Tung China Works",
+      "nameZh": "粵東磁廠",
+      "type": "souvenirs",
+      "tags": [
+        "porcelaine peinte main"
+      ],
+      "district": "Kowloon Bay",
+      "address": "Unit 1-3, 3/F, Kowloon Bay Industrial Centre, 15 Wang Hoi Road, Kowloon Bay",
+      "lat": 22.322893,
+      "lng": 114.210772,
+      "why": "Dernier atelier de porcelaine peinte à la main de Hong Kong (motifs dragon, etc.).",
+      "warning": "Atelier en étage dans un bâtiment industriel.",
+      "order": [],
+      "source": {
+        "account": "@hodobilasn",
+        "url": "https://www.instagram.com/p/DeY9atpBJOQ/"
+      }
+    },
+    {
+      "id": "cat-street",
+      "name": "Cat Street (Upper Lascar Row)",
+      "nameZh": "摩羅上街",
+      "type": "souvenirs",
+      "tags": [
+        "antiquités",
+        "brocante"
+      ],
+      "district": "Sheung Wan",
+      "address": "Upper Lascar Row, Sheung Wan",
+      "lat": 22.28455,
+      "lng": 114.14985,
+      "why": "Rue de brocante et d'antiquités : statuettes, objets rétro, souvenirs à chiner.",
+      "order": [],
+      "source": {
+        "account": "@hodobilasn",
+        "url": "https://www.instagram.com/p/DeY9atpBJOQ/"
+      }
+    },
+    {
+      "id": "choi-hung-estate",
+      "name": "Choi Hung Estate",
+      "nameZh": "彩虹邨",
+      "type": "photo",
+      "tags": [
+        "architecture",
+        "couleurs"
+      ],
+      "district": "Ngau Chi Wan",
+      "address": "2 Tse Wai Avenue, Ngau Chi Wan (MTR Choi Hung)",
+      "lat": 22.334526,
+      "lng": 114.207192,
+      "why": "La cité arc-en-ciel : façades pastel et terrain de basket sur le toit du parking.",
+      "warning": "C'est un lieu d'habitation : rester discret avec l'appareil.",
+      "order": [],
+      "source": {
+        "account": "@damileearch",
+        "url": "https://www.instagram.com/p/DekTYDFSes7/"
       }
     }
   ]
