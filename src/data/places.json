@@ -2687,6 +2687,105 @@
         "account": "@damileearch",
         "url": "https://www.instagram.com/p/DekTYDFSes7/"
       }
+    },
+    {
+      "id": "cheung-hing-coffee-shop",
+      "name": "Cheung Hing Coffee Shop",
+      "nameZh": "祥興咖啡室",
+      "type": "food",
+      "tags": [
+        "cha chaan teng",
+        "rétro",
+        "esprit Mido"
+      ],
+      "district": "Happy Valley",
+      "address": "G/F, 9-11 Yik Yam Street, Happy Valley",
+      "lat": 22.269352,
+      "lng": 114.184995,
+      "why": "Le meilleur équivalent de Mido : ouvert depuis 1951, banquettes en bois, carrelage en damier, menus à la craie. Quartier calme, desservi par le tram.",
+      "warning": "Ferme vers 17 h 45.",
+      "order": [
+        "Pineapple bun",
+        "Thé au lait"
+      ],
+      "source": {
+        "account": "Honeycombers",
+        "url": "https://thehoneycombers.com/hong-kong/cha-chaan-tengs-hong-kong/"
+      }
+    },
+    {
+      "id": "luen-wah-cafe",
+      "name": "Luen Wah Cafe",
+      "nameZh": "聯華茶餐廳",
+      "type": "food",
+      "tags": [
+        "cha chaan teng",
+        "rétro",
+        "près de l'hôtel",
+        "esprit Mido"
+      ],
+      "district": "Sai Ying Pun",
+      "address": "G/F, 28 Centre Street, Sai Ying Pun",
+      "lat": 22.287396,
+      "lng": 114.142214,
+      "why": "Ouvert en 1964 et resté dans son jus : ventilateurs, mosaïques, néons, petites banquettes. Boissons d'époque (cacao glacé, œuf poché dans l'eau chaude). À 5 min de l'hôtel, ouvert dès 5 h : parfait pour le premier petit-déj avec le décalage.",
+      "order": [
+        "Riz au porc pané gratiné"
+      ],
+      "source": {
+        "account": "i-Discover Asia",
+        "url": "https://walks.i-discoverasia.com/walks/sai-ying-pun/locations/luen-wah-cafe"
+      }
+    },
+    {
+      "id": "kam-fung-cafe",
+      "name": "Kam Fung Cafe",
+      "nameZh": "金鳳茶餐廳",
+      "type": "food",
+      "tags": [
+        "cha chaan teng",
+        "rétro",
+        "esprit Mido"
+      ],
+      "district": "Wan Chai",
+      "address": "G/F, Spring Garden Mansion, 41 Spring Garden Lane, Wan Chai",
+      "lat": 22.275502,
+      "lng": 114.172574,
+      "why": "Décor inchangé depuis les années 60 ; l'un des derniers à servir le thé au lait froid à l'ancienne, sans glaçons. Juste à côté de Lam Hing.",
+      "order": [
+        "Pineapple bun au beurre",
+        "Chicken pie",
+        "Thé au lait froid sans glaçons"
+      ],
+      "source": {
+        "account": "Time Out",
+        "url": "https://www.timeout.com/hong-kong/restaurants/kam-fung-cafe"
+      }
+    },
+    {
+      "id": "kam-wah-cafe",
+      "name": "Kam Wah Cafe",
+      "nameZh": "金華冰廳",
+      "type": "food",
+      "tags": [
+        "bing sutt",
+        "rétro",
+        "esprit Mido"
+      ],
+      "district": "Prince Edward",
+      "address": "G/F, 45-47 Bute Street, Prince Edward",
+      "lat": 22.322274,
+      "lng": 114.169719,
+      "why": "Bing sutt d'origine (1972), carreaux et banquettes d'époque ; réputé pour l'un des meilleurs pineapple buns de la ville. À 3 min de One Dim Sum.",
+      "warning": "Très bondé, tables partagées, on ne traîne pas.",
+      "order": [
+        "Pineapple bun au beurre",
+        "Egg tart"
+      ],
+      "source": {
+        "account": "Capture HK",
+        "url": "https://www.capture.hk/blog/nostalgia-4/remembering-hong-kongs-old-style-cafes-17"
+      }
     }
   ]
 }

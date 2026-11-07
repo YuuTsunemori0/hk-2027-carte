@@ -124,7 +124,7 @@ export default function PlaceDetail({ place, type, note, authed, onBack, onNoteC
       <div className="actions">
         <a className="btn primary" href={gmapsUrl(place)} target="_blank" rel="noreferrer">{place.path ? 'Point de départ dans Google Maps' : 'Ouvrir dans Google Maps'}</a>
         {place.source?.url && (
-          <a className="btn" href={place.source.url} target="_blank" rel="noreferrer">{place.path ? `Source : ${place.source.account}` : `Voir le reel ${place.source.account}`}</a>
+          <a className="btn" href={place.source.url} target="_blank" rel="noreferrer">{place.path || !place.source.url.includes('instagram.com') ? `Source : ${place.source.account}` : `Voir le reel ${place.source.account}`}</a>
         )}
       </div>
 
