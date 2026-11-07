@@ -1,0 +1,364 @@
+{
+  "version": 1,
+  "updated": "2026-11-07",
+  "types": {
+    "food": { "label": "Food", "color": "#ff4d4d" },
+    "cafe": { "label": "Café", "color": "#ffbe0b" },
+    "bar": { "label": "Bar", "color": "#b15eff" },
+    "shopping": { "label": "Shopping", "color": "#3a86ff" },
+    "souvenirs": { "label": "Souvenirs & artisanat", "color": "#06d6a0" },
+    "culture": { "label": "Culture", "color": "#00e5ff" },
+    "balade": { "label": "Balade", "color": "#fb8500" },
+    "photo": { "label": "Spot photo", "color": "#ff4fd8" },
+    "hotel": { "label": "Hôtel (option)", "color": "#f1f1f1" }
+  },
+  "places": [
+    {
+      "id": "hung-wan-cafe", "name": "Hung Wan Café", "type": "food", "tags": ["cha chaan teng", "photo"],
+      "district": "Mong Kok", "address": "G/F, 726 Shanghai Street, Mong Kok",
+      "lat": 22.322608, "lng": 114.16752,
+      "why": "Cha chaan teng sur deux étages, ouvert depuis 1977 et rénové l'an dernier. Lieu de tournage de The Lucky Guy (1998) de Stephen Chow.",
+      "order": ["Char siu et œufs brouillés sur riz (82 HKD)", "Set nouilles bœuf satay, jambon, œuf, pain (60 HKD)", "Pineapple bun, egg tart"],
+      "source": { "account": "@evelyn_wasseoyo", "url": "https://www.instagram.com/p/Db26tIHSqPw/" }
+    },
+    {
+      "id": "luk-yu-tea-house", "name": "Luk Yu Tea House", "nameZh": "陸羽茶室", "type": "food", "tags": ["dim sum"],
+      "district": "Central", "address": "24-26 Stanley Street, Central",
+      "lat": 22.282254, "lng": 114.155578,
+      "why": "Maison de thé ouverte en 1933, intérieur des années 30 intact. Menu de dim sum qui change chaque semaine, avec des pièces traditionnelles devenues rares.",
+      "order": [],
+      "source": { "account": "@the_lazyfoodie", "url": "https://www.instagram.com/p/DfMllLGxFa5/" }
+    },
+    {
+      "id": "mido-cafe", "name": "Mido Café", "nameZh": "美都餐室", "type": "food", "tags": ["cha chaan teng", "photo", "rétro"],
+      "district": "Yau Ma Tei", "address": "63 Temple Street, Yau Ma Tei",
+      "lat": 22.310226, "lng": 114.170369,
+      "why": "Cha chaan teng rétro aux vitres colorées, angle de rue iconique. Indiqué « Central » dans le reel, mais il est à Yau Ma Tei.",
+      "order": [],
+      "source": { "account": "@junchiu1012", "url": "https://www.instagram.com/p/DfR8LcBkkCc/" }
+    },
+    {
+      "id": "lan-fong-yuen", "name": "Lan Fong Yuen", "nameZh": "蘭芳園", "type": "food", "tags": ["cha chaan teng"],
+      "district": "Central", "address": "2 Gage Street, Central",
+      "lat": 22.28264, "lng": 114.1538,
+      "why": "Institution du thé au lait « bas de soie », toujours bondée.",
+      "order": [],
+      "source": { "account": "@junchiu1012", "url": "https://www.instagram.com/p/DfR8LcBkkCc/" }
+    },
+    {
+      "id": "maxims-palace", "name": "Maxim's Palace", "nameZh": "美心皇宮", "type": "food", "tags": ["dim sum"],
+      "district": "Central", "address": "2/F, City Hall Low Block, Central",
+      "lat": 22.28237, "lng": 114.161759,
+      "why": "Grande salle de banquet à lustres, dim sum servis sur chariots.",
+      "order": [],
+      "source": { "account": "@junchiu1012", "url": "https://www.instagram.com/p/DfR8LcBkkCc/" }
+    },
+    {
+      "id": "mott-32", "name": "Mott 32", "type": "food", "tags": ["chic"],
+      "district": "Central", "address": "Basement, Standard Chartered Bank Building, 4-4A Des Voeux Road Central",
+      "lat": 22.28034, "lng": 114.159147,
+      "why": "Restaurant chinois haut de gamme en sous-sol, déco sombre et bar soigné.",
+      "order": [],
+      "source": { "account": "@junchiu1012", "url": "https://www.instagram.com/p/DfR8LcBkkCc/" }
+    },
+    {
+      "id": "samsen", "name": "Samsen", "type": "food", "tags": ["thaï"],
+      "district": "Sheung Wan", "address": "23 Jervois Street, Sheung Wan",
+      "lat": 22.285082, "lng": 114.152299,
+      "why": "Cantine thaïe animée sous plantes suspendues.",
+      "order": [],
+      "source": { "account": "@junchiu1012", "url": "https://www.instagram.com/p/DfR8LcBkkCc/" }
+    },
+    {
+      "id": "fook-yuen", "name": "Fook Yuen", "nameZh": "福元湯圓", "type": "food", "tags": ["dessert"],
+      "district": "North Point", "address": "Shop I-1, G/F, 7 Fook Yum Road, Fortress Hill",
+      "lat": 22.289036, "lng": 114.193773,
+      "why": "Desserts cantonais (soupes sucrées, tong yuen).",
+      "order": [],
+      "source": { "account": "@meliluu__", "url": "https://www.instagram.com/p/Dd_OILmuPZP/" }
+    },
+    {
+      "id": "lee-keung-kee", "name": "Lee Keung Kee", "nameZh": "利強記北角雞蛋仔", "type": "food", "tags": ["street food"],
+      "district": "North Point", "address": "492 King's Road, North Point",
+      "lat": 22.291231, "lng": 114.201629,
+      "why": "Gaufres aux œufs (egg waffles) croustillantes.",
+      "order": ["Egg waffle nature"],
+      "source": { "account": "@meliluu__", "url": "https://www.instagram.com/p/Dd_OILmuPZP/" }
+    },
+    {
+      "id": "tomato-house", "name": "Tomato House", "nameZh": "蕃喜工房", "type": "food", "tags": ["nouilles"],
+      "district": "North Point", "address": "Shop 6, Block A, 254-280 Electric Road, Fortress Hill",
+      "lat": 22.289066, "lng": 114.193735,
+      "why": "Nouilles dans un bouillon de tomate riche.",
+      "order": [],
+      "source": { "account": "@meliluu__", "url": "https://www.instagram.com/p/Dd_OILmuPZP/" }
+    },
+    {
+      "id": "lau-sum-kee", "name": "Lau Sum Kee", "nameZh": "劉森記麵家", "type": "food", "tags": ["nouilles"],
+      "district": "Sham Shui Po", "address": "48 Kweilin Street, Sham Shui Po",
+      "lat": 22.332178, "lng": 114.163046,
+      "why": "Nouilles au bambou (jook-sing), wontons et radis mariné maison.",
+      "order": ["Nouilles au bambou aux œufs de crevette", "Wontons en accompagnement", "Radis mariné maison"],
+      "source": { "account": "@always.elin", "url": "https://www.instagram.com/p/DdlxEsFy-nK/" }
+    },
+    {
+      "id": "hop-yik-tai", "name": "Hop Yik Tai", "nameZh": "合益泰小食", "type": "food", "tags": ["street food", "Michelin"],
+      "district": "Sham Shui Po", "address": "121 Kweilin Street, Sham Shui Po",
+      "lat": 22.330483, "lng": 114.161229,
+      "why": "Cheung fun recommandés par le Michelin, l'en-cas pour la route.",
+      "order": ["Cheung fun"],
+      "source": { "account": "@always.elin", "url": "https://www.instagram.com/p/DdlxEsFy-nK/" }
+    },
+    {
+      "id": "china-town-restaurant", "name": "China Town Restaurant", "nameZh": "唐人居茶樓", "type": "food", "tags": ["cha chaan teng", "rétro"],
+      "district": "Yuen Long", "address": "G/F, 30 Tong Yan San Tsuen Road, Ping Shan, Yuen Long",
+      "lat": 22.439084, "lng": 114.010816,
+      "why": "Cantine rétro tapissée de photos et d'affiches de stars hongkongaises.",
+      "warning": "Très excentré (Nouveaux Territoires). L'autrice du reel trouve la cuisine moyenne et ne conseille pas le détour pour un séjour court. Fermé tôt le mardi (18h).",
+      "order": [],
+      "source": { "account": "@petitfeilee", "url": "https://www.instagram.com/p/DeeeWKdiP7Z/" }
+    },
+    {
+      "id": "uncle-ben-coffee", "name": "Uncle Ben Coffee", "type": "cafe",
+      "district": "North Point", "address": "Shop 7, G/F, Fu Lee Loy Mansion, 9-27 King Wah Road, Fortress Hill",
+      "lat": 22.288381, "lng": 114.191751,
+      "why": "Bon café dans un tout petit spot de quartier.",
+      "order": [],
+      "source": { "account": "@meliluu__", "url": "https://www.instagram.com/p/Dd_OILmuPZP/" }
+    },
+    {
+      "id": "artistry-brewing", "name": "Artistry Brewing Company", "type": "cafe",
+      "district": "North Point", "address": "Block D, G/F, 43A Kam Ping Street, North Point",
+      "lat": 22.290008, "lng": 114.20042,
+      "why": "Café, gâteaux et déjeuner.",
+      "order": [],
+      "source": { "account": "@meliluu__", "url": "https://www.instagram.com/p/Dd_OILmuPZP/" }
+    },
+    {
+      "id": "moonary-coffee", "name": "Moonary Coffee", "type": "cafe",
+      "district": "Central", "address": "G/F, 25 Aberdeen Street, Central",
+      "lat": 22.283791, "lng": 114.152646,
+      "why": "Petit café minimaliste en bois, vitrine-comptoir sur la rue.",
+      "order": [],
+      "source": { "account": "@junchiu1012", "url": "https://www.instagram.com/p/DfR8LcBkkCc/" }
+    },
+    {
+      "id": "hara-kako", "name": "hara kako", "type": "cafe",
+      "district": "Sheung Wan", "address": "Shop B, 77-91 Queen's Road West, Sheung Wan",
+      "lat": 22.286526, "lng": 114.147091,
+      "why": "Café-salon façon appartement : tables basses, coussins, grande toile aux chevaux.",
+      "order": [],
+      "source": { "account": "@junchiu1012", "url": "https://www.instagram.com/p/DfR8LcBkkCc/" }
+    },
+    {
+      "id": "primary", "name": "Primary", "type": "cafe",
+      "district": "Sham Shui Po", "address": "132 Yu Chau Street, Sham Shui Po",
+      "lat": 22.328096, "lng": 114.164034,
+      "why": "Nouveau café du quartier, bonne pause pour regarder passer les gens.",
+      "order": [],
+      "source": { "account": "@always.elin", "url": "https://www.instagram.com/p/DdlxEsFy-nK/" }
+    },
+    {
+      "id": "mercury-recalls", "name": "Mercury Recalls", "type": "cafe",
+      "district": "Causeway Bay", "address": "51 Paterson Street, Causeway Bay",
+      "lat": 22.281433, "lng": 114.184916,
+      "why": "Café « avec un twist » repéré dans une sélection de cafés originaux.",
+      "order": [],
+      "source": { "account": "@___dayswithme", "url": "https://www.instagram.com/p/DfWNYXZzlQk/" }
+    },
+    {
+      "id": "the-daily-spin", "name": "The Daily Spin", "type": "cafe", "tags": ["vinyles"],
+      "district": "Sham Shui Po", "address": "G/F, 30 Poplar Street, Tong Mi, Sham Shui Po",
+      "lat": 22.326798, "lng": 114.166732,
+      "why": "Café vinyles.",
+      "order": [],
+      "source": { "account": "@___dayswithme", "url": "https://www.instagram.com/p/DfWNYXZzlQk/" }
+    },
+    {
+      "id": "islet-coffee-lab", "name": "Islet Coffee Lab", "type": "cafe",
+      "district": "Central", "address": "G/F, 8-10 On Lan Street, Central",
+      "lat": 22.28081, "lng": 114.156621,
+      "why": "Café original repéré dans une sélection de cafés à Hong Kong.",
+      "order": [],
+      "source": { "account": "@___dayswithme", "url": "https://www.instagram.com/p/DfWNYXZzlQk/" }
+    },
+    {
+      "id": "bear-by-years", "name": "BEAR by Years", "type": "cafe",
+      "district": "Cheung Sha Wan", "address": "Shop 2, G/F, 10A Cheung Yue Street, Cheung Sha Wan",
+      "lat": 22.336946, "lng": 114.150727,
+      "why": "Café original repéré dans une sélection de cafés à Hong Kong.",
+      "order": [],
+      "source": { "account": "@___dayswithme", "url": "https://www.instagram.com/p/DfWNYXZzlQk/" }
+    },
+    {
+      "id": "coda-jazz-kissa", "name": "CODA Jazz Kissa", "nameZh": "爵士喫茶", "type": "bar", "tags": ["jazz", "vinyles"],
+      "district": "Sai Ying Pun", "address": "G/F, 112 First Street, Sai Ying Pun",
+      "lat": 22.28648, "lng": 114.140489,
+      "why": "Café-bar jazz à la japonaise : vinyles, concerts.",
+      "order": [],
+      "source": { "account": "@___dayswithme", "url": "https://www.instagram.com/p/DfWNYXZzlQk/" }
+    },
+    {
+      "id": "montana", "name": "Montana", "type": "bar",
+      "district": "Sheung Wan", "address": "108 Hollywood Road",
+      "lat": 22.283877, "lng": 114.150674,
+      "why": "Bar tamisé, bougies et pochettes de disques au mur.",
+      "order": [],
+      "source": { "account": "@junchiu1012", "url": "https://www.instagram.com/p/DfR8LcBkkCc/" }
+    },
+    {
+      "id": "megabox", "name": "MegaBox", "type": "shopping", "tags": ["outlets"],
+      "district": "Kowloon Bay", "address": "38 Wang Chiu Road, Kowloon Bay (MTR Kowloon Bay sortie A, 8-10 min à pied)",
+      "lat": 22.319788, "lng": 114.208489,
+      "why": "Outlets au rez-de-chaussée, GigaSports au 8e. Kit de bienvenue touriste sur présentation du passeport et de la preuve d'entrée.",
+      "order": ["Réclamer le kit touriste (carte postale + coupons)", "Sac IKEA offert dès 500 HKD d'achats"],
+      "source": { "account": "@shivanidukhandee", "url": "https://www.instagram.com/p/DcQnV4ozkJp/" }
+    },
+    {
+      "id": "adidas-tst", "name": "adidas (flagship Tsim Sha Tsui)", "type": "shopping",
+      "district": "Tsim Sha Tsui", "address": "Sands Building, 17 Hankow Road, Tsim Sha Tsui",
+      "lat": 22.296536, "lng": 114.17099,
+      "why": "Exclusivités adidas Hong Kong, soldes sur les Spezial, tote bags et casquettes « Hong Kong ».",
+      "warning": "Le reel ne nomme pas la boutique exacte (tag Tsim Sha Tsui) : c'est le flagship du quartier.",
+      "order": [],
+      "source": { "account": "@amandanhammond", "url": "https://www.instagram.com/p/DeybILETyVl/" }
+    },
+    {
+      "id": "woo-ping", "name": "Woo Ping", "type": "shopping", "tags": ["vintage"],
+      "district": "North Point", "address": "276 King's Road, North Point",
+      "lat": 22.288859, "lng": 114.1947,
+      "why": "Lunettes de soleil vintage à bon prix.",
+      "order": [],
+      "source": { "account": "@meliluu__", "url": "https://www.instagram.com/p/Dd_OILmuPZP/" }
+    },
+    {
+      "id": "select-18", "name": "Select 18", "type": "shopping", "tags": ["vintage", "photo"],
+      "district": "Sheung Wan", "address": "14 Tung Street (Upper Lascar Row), Sheung Wan",
+      "lat": 22.285184, "lng": 114.149461,
+      "why": "Caverne vintage : disques, appareils, objets rétro. Façade très photogénique.",
+      "order": [],
+      "source": { "account": "@junchiu1012", "url": "https://www.instagram.com/p/DfR8LcBkkCc/" }
+    },
+    {
+      "id": "king-slippers", "name": "King Slippers", "nameZh": "英皇拖鞋公司", "type": "souvenirs",
+      "district": "North Point", "address": "315 King's Road, North Point",
+      "lat": 22.290494, "lng": 114.196171,
+      "why": "Chaussons brodés à la main à l'ancienne.",
+      "order": [],
+      "source": { "account": "@meliluu__", "url": "https://www.instagram.com/p/Dd_OILmuPZP/" }
+    },
+    {
+      "id": "porcelaine-wan-chai", "name": "Boutique de porcelaine (nom à identifier)", "type": "souvenirs", "approx": true,
+      "district": "Wan Chai", "address": "Wan Chai (adresse non donnée)",
+      "lat": 22.2774, "lng": 114.1727,
+      "why": "Commerce familial depuis 1954, deux étages de tasses, bols et céramiques bleu et blanc ; fournit hôtels et restaurants.",
+      "warning": "Position approximative : la créatrice donne l'adresse en message privé uniquement.",
+      "order": [],
+      "source": { "account": "@hadamundo.pattern", "url": "https://www.instagram.com/p/De_-5cOy4ja/" }
+    },
+    {
+      "id": "man-wa-lane", "name": "Ng Kam Chun – tampons", "type": "souvenirs",
+      "district": "Sheung Wan", "address": "Man Wa Lane (rue des graveurs de sceaux), Sheung Wan",
+      "lat": 22.285652, "lng": 114.152312,
+      "why": "Tampon personnalisé gravé sur place.",
+      "order": [],
+      "source": { "account": "@leeamicah", "url": "https://www.instagram.com/p/DelkrRrogQG/" }
+    },
+    {
+      "id": "jade-market", "name": "Jade Market – 152 Sandra Pearls", "type": "souvenirs",
+      "district": "Yau Ma Tei", "address": "Yau Ma Tei Jade Hawker Bazaar, 261 Shanghai Street (stand 152)",
+      "lat": 22.30906, "lng": 114.170013,
+      "why": "Colliers et bagues en jade, stand 152.",
+      "order": [],
+      "source": { "account": "@leeamicah", "url": "https://www.instagram.com/p/DelkrRrogQG/" }
+    },
+    {
+      "id": "kowloon-souvenir-shop", "name": "Kowloon Souvenir Shop", "nameZh": "九龍紀念品專門店", "type": "souvenirs",
+      "district": "Tsim Sha Tsui", "address": "Heath Mall, Tsim Sha Tsui",
+      "lat": 22.296534, "lng": 114.172365,
+      "why": "Souvenirs au design hongkongais, plus personnels que les magnets.",
+      "order": [],
+      "source": { "account": "@curatedbykkw", "url": "https://www.instagram.com/p/DfViWAXOAQd/" }
+    },
+    {
+      "id": "oil-street-art-space", "name": "Oil Street Art Space", "nameZh": "油街實現", "type": "culture",
+      "district": "North Point", "address": "12 Oil Street, North Point",
+      "lat": 22.288958, "lng": 114.193122,
+      "why": "Art contemporain dans un ancien club colonial.",
+      "order": [],
+      "source": { "account": "@meliluu__", "url": "https://www.instagram.com/p/Dd_OILmuPZP/" }
+    },
+    {
+      "id": "m-plus", "name": "M+ Museum", "type": "culture", "tags": ["photo"],
+      "district": "West Kowloon", "address": "38 Museum Drive, West Kowloon Cultural District",
+      "lat": 22.300998, "lng": 114.15914,
+      "why": "Musée de la culture visuelle, architecture béton et escalier en spirale.",
+      "order": [],
+      "source": { "account": "@junchiu1012", "url": "https://www.instagram.com/p/DfR8LcBkkCc/" }
+    },
+    {
+      "id": "apliu-street", "name": "Apliu Street", "nameZh": "鴨寮街", "type": "balade",
+      "district": "Sham Shui Po", "address": "Apliu Street, Sham Shui Po",
+      "lat": 22.330723, "lng": 114.162321,
+      "why": "Marché aux puces électronique et brocante.",
+      "order": [],
+      "source": { "account": "@always.elin", "url": "https://www.instagram.com/p/DdlxEsFy-nK/" }
+    },
+    {
+      "id": "tai-nan-street", "name": "Tai Nan Street", "nameZh": "大南街", "type": "balade",
+      "district": "Sham Shui Po", "address": "Tai Nan Street, Sham Shui Po",
+      "lat": 22.32707, "lng": 114.163404,
+      "why": "Rue du cuir et des nouveaux cafés et boutiques créatives.",
+      "order": [],
+      "source": { "account": "@always.elin", "url": "https://www.instagram.com/p/DdlxEsFy-nK/" }
+    },
+    {
+      "id": "ki-lung-street", "name": "Ki Lung Street", "nameZh": "基隆街", "type": "balade",
+      "district": "Sham Shui Po", "address": "Ki Lung Street, Sham Shui Po",
+      "lat": 22.328044, "lng": 114.163,
+      "why": "Rue des tissus et boutons.",
+      "order": [],
+      "source": { "account": "@always.elin", "url": "https://www.instagram.com/p/DdlxEsFy-nK/" }
+    },
+    {
+      "id": "kweilin-street", "name": "Kweilin Street", "nameZh": "桂林街", "type": "balade",
+      "district": "Sham Shui Po", "address": "Kweilin Street, Sham Shui Po",
+      "lat": 22.332017, "lng": 114.162743,
+      "why": "Rue de street food (Lau Sum Kee, Hop Yik Tai).",
+      "order": [],
+      "source": { "account": "@always.elin", "url": "https://www.instagram.com/p/DdlxEsFy-nK/" }
+    },
+    {
+      "id": "chun-yeung-street", "name": "Chun Yeung Street", "nameZh": "春秧街", "type": "photo", "tags": ["tram", "marché"],
+      "district": "North Point", "address": "Chun Yeung Street, North Point",
+      "lat": 22.291287, "lng": 114.197838,
+      "why": "Le tram traverse le marché couvert de la rue : l'image de la vignette du reel North Point.",
+      "warning": "Ajouté d'après l'image du reel, la légende ne le nomme pas.",
+      "order": [],
+      "source": { "account": "@meliluu__", "url": "https://www.instagram.com/p/Dd_OILmuPZP/" }
+    },
+    {
+      "id": "peel-street", "name": "Peel Street – néons de tournage", "type": "photo", "tags": ["néons"],
+      "district": "Central", "address": "Peel Street, Central",
+      "lat": 22.283765, "lng": 114.153772,
+      "why": "Décor de néons rétro installé pour le tournage de Highlander (avec Henry Cavill).",
+      "warning": "Décor temporaire filmé il y a environ 3 mois : probablement démonté d'ici janvier.",
+      "order": [],
+      "source": { "account": "@withyuee", "url": "https://www.instagram.com/p/DcAUgkYA3rt/" }
+    },
+    {
+      "id": "stanford-hotel", "name": "Stanford Hotel", "type": "hotel",
+      "district": "Mong Kok", "address": "118 Soy Street, Mong Kok",
+      "lat": 22.316985, "lng": 114.173138,
+      "why": "Option d'hôtel côté Kowloon, proche des néons de Mong Kok et Yau Ma Tei.",
+      "order": []
+    },
+    {
+      "id": "sohotel", "name": "SoHotel", "type": "hotel",
+      "district": "Sheung Wan", "address": "139-141 Bonham Strand, Sheung Wan",
+      "lat": 22.286471, "lng": 114.148948,
+      "why": "Option d'hôtel côté île, à deux pas de Sheung Wan et Central.",
+      "order": []
+    }
+  ]
+}
