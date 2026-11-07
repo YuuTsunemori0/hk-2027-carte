@@ -29,8 +29,30 @@ function toGeoJSON(places, notes, types) {
   };
 }
 
+function routesGeoJSON(places, types, selectedId) {
+  return {
+    type: 'FeatureCollection',
+    features: places.filter((p) => p.path).map((p) => ({
+      type: 'Feature',
+      properties: { id: p.id, color: types[p.type]?.color || '#39ff14', selected: p.id === selectedId },
+      geometry: { type: 'LineString', coordinates: p.path },
+    })),
+  };
+}
+
 function addLayers(map) {
   if (map.getSource('places')) return;
+  map.addSource('routes', { type: 'geojson', data: { type: 'FeatureCollection', features: [] } });
+  map.addLayer({
+    id: 'routes-glow', type: 'line', source: 'routes',
+    layout: { 'line-join': 'round', 'line-cap': 'round' },
+    paint: { 'line-color': ['get', 'color'], 'line-width': ['case', ['get', 'selected'], 14, 9], 'line-blur': 6, 'line-opacity': 0.35 },
+  });
+  map.addLayer({
+    id: 'routes', type: 'line', source: 'routes',
+    layout: { 'line-join': 'round', 'line-cap': 'round' },
+    paint: { 'line-color': ['get', 'color'], 'line-width': ['case', ['get', 'selected'], 5, 3], 'line-opacity': 0.95 },
+  });
   map.addSource('places', { type: 'geojson', data: { type: 'FeatureCollection', features: [] } });
   map.addSource('selected', { type: 'geojson', data: { type: 'FeatureCollection', features: [] } });
   map.addLayer({
@@ -78,6 +100,7 @@ export default function MapView({ places, notes, types, theme, selectedId, onSel
     addLayers(map);
     const { places: ps, notes: ns, types: ts, selectedId: sid } = dataRef.current;
     map.getSource('places').setData(toGeoJSON(ps, ns, ts));
+    map.getSource('routes').setData(routesGeoJSON(ps, ts, sid));
     const sel = ps.find((p) => p.id === sid);
     map.getSource('selected').setData({
       type: 'FeatureCollection',
@@ -123,6 +146,12 @@ export default function MapView({ places, notes, types, theme, selectedId, onSel
       const id = e.features?.[0]?.properties?.id;
       if (id) onSelectRef.current(id, { fromMap: true });
     });
+    map.on('click', 'routes', (e) => {
+      const id = e.features?.[0]?.properties?.id;
+      if (id) onSelectRef.current(id, { fromMap: true });
+    });
+    map.on('mouseenter', 'routes', () => { map.getCanvas().style.cursor = 'pointer'; });
+    map.on('mouseleave', 'routes', () => { map.getCanvas().style.cursor = ''; });
     map.on('mouseenter', 'places', () => { map.getCanvas().style.cursor = 'pointer'; });
     map.on('mouseleave', 'places', () => { map.getCanvas().style.cursor = ''; });
     return () => { map.remove(); mapRef.current = null; readyRef.current = false; };
@@ -146,6 +175,13 @@ export default function MapView({ places, notes, types, theme, selectedId, onSel
     const map = mapRef.current;
     const sel = places.find((p) => p.id === selectedId);
     if (!map || !sel || !flyKey) return;
+    if (sel.path) {
+      const b = new maplibregl.LngLatBounds();
+      sel.path.forEach((c) => b.extend(c));
+      const pad = mapPadding();
+      map.fitBounds(b, { padding: { top: pad.top + 50, bottom: pad.bottom + 50, left: pad.left + 50, right: pad.right + 70 }, maxZoom: 16 });
+      return;
+    }
     map.flyTo({ center: [sel.lng, sel.lat], zoom: Math.max(map.getZoom(), 15), speed: 1.4, padding: mapPadding() });
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [flyKey]);

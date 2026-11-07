@@ -9,6 +9,7 @@ const STATUSES = [
 ];
 
 function gmapsUrl(p) {
+  if (p.path) return `https://www.google.com/maps/search/?api=1&query=${p.lat},${p.lng}`;
   const q = `${p.name} ${p.address || ''} Hong Kong`;
   return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(q)}`;
 }
@@ -113,6 +114,7 @@ export default function PlaceDetail({ place, type, note, authed, onBack, onNoteC
       <h2>{place.name}</h2>
       {place.nameZh && <div className="zh">{place.nameZh}</div>}
 
+      {place.stats && <p className="stats">{place.stats}</p>}
       {place.warning && <p className="warning">⚠︎ {place.warning}</p>}
       {place.why && <p className="why">{place.why}</p>}
 
@@ -120,9 +122,9 @@ export default function PlaceDetail({ place, type, note, authed, onBack, onNoteC
         <span>{place.address}</span>
       </div>
       <div className="actions">
-        <a className="btn primary" href={gmapsUrl(place)} target="_blank" rel="noreferrer">Ouvrir dans Google Maps</a>
+        <a className="btn primary" href={gmapsUrl(place)} target="_blank" rel="noreferrer">{place.path ? 'Point de départ dans Google Maps' : 'Ouvrir dans Google Maps'}</a>
         {place.source?.url && (
-          <a className="btn" href={place.source.url} target="_blank" rel="noreferrer">Voir le reel {place.source.account}</a>
+          <a className="btn" href={place.source.url} target="_blank" rel="noreferrer">{place.path ? `Source : ${place.source.account}` : `Voir le reel ${place.source.account}`}</a>
         )}
       </div>
 
@@ -145,7 +147,7 @@ export default function PlaceDetail({ place, type, note, authed, onBack, onNoteC
               ))}
             </div>
 
-            <label className="field-label">À commander / à faire</label>
+            <label className="field-label">{place.path ? 'Objectifs / à prévoir' : 'À commander / à faire'}</label>
             <ul className="order">
               {draft.order.map((item, i) => (
                 <li key={i}>
@@ -155,7 +157,7 @@ export default function PlaceDetail({ place, type, note, authed, onBack, onNoteC
               ))}
             </ul>
             <form className="add-item" onSubmit={addItem}>
-              <input value={newItem} onChange={(e) => setNewItem(e.target.value)} placeholder="Ajouter un plat, un truc à voir…" />
+              <input value={newItem} onChange={(e) => setNewItem(e.target.value)} placeholder={place.path ? 'Ajouter un objectif, un horaire…' : 'Ajouter un plat, un truc à voir…'} />
               <button className="btn" type="submit">Ajouter</button>
             </form>
 

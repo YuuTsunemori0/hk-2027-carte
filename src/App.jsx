@@ -259,7 +259,7 @@ export default function App() {
                       <i className="dot" style={{ '--c': TYPES[p.type].color }} />
                       <span className="pname">
                         {p.name}
-                        <small>{p.district}{p.warning ? ' · ⚠︎' : ''}{n?.attachments?.length ? ` · 📎${n.attachments.length}` : ''}</small>
+                        <small>{p.path ? (p.stats || '').split(' · ').slice(0, 2).join(' · ') : p.district}{p.warning ? ' · ⚠︎' : ''}{n?.attachments?.length ? ` · 📎${n.attachments.length}` : ''}</small>
                       </span>
                       {n?.status && <span className={`st st-${n.status}`}>{STATUS_LABEL[n.status]}</span>}
                     </button>
