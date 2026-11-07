@@ -4,7 +4,7 @@ Carte interactive des lieux repérés pour le voyage à Hong Kong (16 → 24 jan
 
 - **Référence** : `src/data/places.json` (lieux, types, coordonnées, pourquoi y aller, reel d'origine).
 - **Mes ajouts** : statut, « à commander », notes et photos, stockés dans Neon (Postgres) et Vercel Blob.
-- **Carte** : MapLibre + fonds CARTO sombre/clair, géolocalisation, filtres par type, quartier et statut.
+- **Carte** : MapLibre + fonds OpenFreeMap sombre/clair (sans clé), géolocalisation, filtres par type, quartier et statut.
 
 ## Mise en place sur Vercel
 

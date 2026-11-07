@@ -5,23 +5,11 @@ import workerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url';
 
 maplibregl.setWorkerUrl(workerUrl);
 
-const ATTRIBUTION = '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> · © <a href="https://carto.com/attributions">CARTO</a>';
-
+// Fonds OpenFreeMap : gratuits, sans clé, données OpenStreetMap
 function baseStyle(theme) {
-  const flavor = theme === 'light' ? 'light_all' : 'dark_all';
-  return {
-    version: 8,
-    sources: {
-      carto: {
-        type: 'raster',
-        tiles: ['a', 'b', 'c', 'd'].map((s) => `https://${s}.basemaps.cartocdn.com/${flavor}/{z}/{x}/{y}@2x.png`),
-        tileSize: 256,
-        maxzoom: 20,
-        attribution: ATTRIBUTION,
-      },
-    },
-    layers: [{ id: 'carto', type: 'raster', source: 'carto' }],
-  };
+  return theme === 'light'
+    ? 'https://tiles.openfreemap.org/styles/positron'
+    : 'https://tiles.openfreemap.org/styles/dark';
 }
 
 function toGeoJSON(places, notes, types) {
