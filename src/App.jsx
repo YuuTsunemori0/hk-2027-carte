@@ -196,7 +196,7 @@ export default function App() {
             <header className="top">
               <div>
                 <h1>Hong Kong <span>2027</span></h1>
-                <p className="sub">{PLACES.length} lieux · {doneCount} faits · 16 → 24 janv.</p>
+                <p className="sub">{PLACES.length} lieux · {doneCount} faits · 16 → 24 janv. · Eco Tree Sheung Wan</p>
               </div>
               <div className="top-actions">
                 <button className="icon" title={theme === 'dark' ? 'Fond clair' : 'Fond sombre'} onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}>
