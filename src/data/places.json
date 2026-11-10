@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-07",
+  "updated": "2026-11-10",
   "types": {
     "food": {
       "label": "Food",
@@ -276,7 +276,7 @@
       "address": "121 Kweilin Street, Sham Shui Po",
       "lat": 22.330483,
       "lng": 114.161229,
-      "why": "Cheung fun recommandés par le Michelin, l'en-cas pour la route. Environ 10 HKD les 4 rouleaux, la queue avance vite.",
+      "why": "Cheung fun recommandés par le Michelin, l'en-cas pour la route. Environ 10 HKD les 4 rouleaux, la queue avance vite. Demander du sésame en plus ; juste à la sortie C2 du MTR Sham Shui Po.",
       "order": [
         "Cheung fun"
       ],
@@ -2522,7 +2522,7 @@
       "lat": 22.322598,
       "lng": 114.163765,
       "why": "Les horloges à palettes hongkongaises des banques et des salons d'antan, toujours assemblées à la main.",
-      "warning": "Adresse de la société sur Google Maps : vérifier les horaires d'ouverture au public avant d'y aller.",
+      "warning": "Adresse de la société dans un immeuble industriel : vérifier les horaires. Plus simple : les horloges sont en vente au PMQ (Central).",
       "order": [
         "Horloge bilingue noir et blanc"
       ],
@@ -2785,6 +2785,325 @@
       "source": {
         "account": "Capture HK",
         "url": "https://www.capture.hk/blog/nostalgia-4/remembering-hong-kongs-old-style-cafes-17"
+      }
+    },
+    {
+      "id": "fm-coffee",
+      "name": "fm coffee",
+      "type": "cafe",
+      "tags": [
+        "coréen",
+        "einspänner"
+      ],
+      "district": "Central",
+      "address": "176 Queen's Road Central, Central",
+      "lat": 22.284731,
+      "lng": 114.153327,
+      "why": "Café venu de Busan, à l'angle le plus animé de Sheung Wan, avec vue sur Queen's Road.",
+      "order": [
+        "Einspänner"
+      ],
+      "source": {
+        "account": "@___dayswithme",
+        "url": "https://www.instagram.com/p/DeblKfYzcB_/"
+      }
+    },
+    {
+      "id": "lowkey",
+      "name": "lowkey.",
+      "type": "cafe",
+      "tags": [
+        "salt bread",
+        "nouveau"
+      ],
+      "district": "Central",
+      "address": "Shop 2, 1 Old Bailey Street, Central",
+      "lat": 22.280956,
+      "lng": 114.153112,
+      "why": "Nouveau café spécialisé dans le salt bread.",
+      "order": [
+        "Salt bread"
+      ],
+      "source": {
+        "account": "@___dayswithme",
+        "url": "https://www.instagram.com/p/DeHiEDAT7s7/"
+      }
+    },
+    {
+      "id": "psyche-mou",
+      "name": "Psyche Mou",
+      "type": "cafe",
+      "tags": [
+        "nouveau"
+      ],
+      "district": "Central",
+      "address": "21 Staunton Street, SoHo, Central",
+      "lat": 22.282101,
+      "lng": 114.152842,
+      "why": "Nouvelle adresse café de SoHo.",
+      "order": [],
+      "source": {
+        "account": "@___dayswithme",
+        "url": "https://www.instagram.com/p/DeHiEDAT7s7/"
+      }
+    },
+    {
+      "id": "koen",
+      "name": "kōen",
+      "type": "cafe",
+      "tags": [
+        "nouveau"
+      ],
+      "district": "Central",
+      "address": "Shop 101, Chater House, 8 Connaught Road Central",
+      "lat": 22.28204,
+      "lng": 114.15852,
+      "why": "Nouveau café dans Chater House, pratique en plein Central.",
+      "order": [],
+      "source": {
+        "account": "@___dayswithme",
+        "url": "https://www.instagram.com/p/DeHiEDAT7s7/"
+      }
+    },
+    {
+      "id": "affee-kai-tak",
+      "name": "Affee (Kai Tak)",
+      "type": "cafe",
+      "tags": [
+        "nouveau"
+      ],
+      "district": "Kai Tak",
+      "address": "Shop G08, Cullinan Sky Mall, 10 Concorde Road, Kai Tak",
+      "lat": 22.332169,
+      "lng": 114.199418,
+      "approx": true,
+      "warning": "Point placé sur la résidence Cullinan Sky. Autre adresse plus centrale : 23B Hoi Kwong Street, Quarry Bay.",
+      "why": "Nouveau café du quartier de Kai Tak.",
+      "order": [],
+      "source": {
+        "account": "@___dayswithme",
+        "url": "https://www.instagram.com/p/DeHiEDAT7s7/"
+      }
+    },
+    {
+      "id": "onethird-coffee",
+      "name": "OneThird Coffee Roasters",
+      "type": "cafe",
+      "tags": [
+        "torréfacteur"
+      ],
+      "district": "Central",
+      "address": "G/F, 32 Graham Street, Central",
+      "lat": 22.282778,
+      "lng": 114.153359,
+      "why": "Le café devant lequel est tourné le reel mode (costume brun, cravate vintage) ; rue en pente typique de Central.",
+      "order": [],
+      "source": {
+        "account": "@shaunbirley",
+        "url": "https://www.instagram.com/p/Dfg6OZmgzPJ/"
+      }
+    },
+    {
+      "id": "sun-kwai-heung",
+      "name": "Sun Kwai Heung",
+      "nameZh": "新桂香燒臘",
+      "type": "food",
+      "tags": [
+        "char siu",
+        "siu mei"
+      ],
+      "district": "Chai Wan",
+      "address": "Shop 17, G/F, 345 Chai Wan Road, Chai Wan",
+      "lat": 22.264578,
+      "lng": 114.24028,
+      "why": "Char siu de référence depuis plus de 40 ans : laqué au maltose, bords caramélisés. Prétexte pour voir un quartier hors des sentiers battus.",
+      "warning": "Boutique minuscule : prévoir l'attente ou prendre à emporter.",
+      "order": [
+        "Char siu mi-gras mi-maigre"
+      ],
+      "source": {
+        "account": "@always.elin",
+        "url": "https://www.instagram.com/p/DeEmgW0S6e9/"
+      }
+    },
+    {
+      "id": "maks-noodle",
+      "name": "Mak's Noodle",
+      "nameZh": "麥奀雲吞麵世家",
+      "type": "food",
+      "tags": [
+        "wonton",
+        "nouilles"
+      ],
+      "district": "Central",
+      "address": "77 Wellington Street, Central",
+      "lat": 22.283,
+      "lng": 114.154634,
+      "why": "Institution de la soupe de wontons, petits bols à l'ancienne.",
+      "order": [
+        "Wonton noodle soup"
+      ],
+      "source": {
+        "account": "@tenea.eats",
+        "url": "https://www.instagram.com/p/DfdiCNgTrlZ/"
+      }
+    },
+    {
+      "id": "chicken-egg-boy",
+      "name": "Chicken Egg Boy",
+      "type": "food",
+      "tags": [
+        "egg waffle",
+        "street food",
+        "près de l'hôtel"
+      ],
+      "district": "Sheung Wan",
+      "address": "Shop 2, G/F, 148 Wing Lok Street, Sheung Wan",
+      "lat": 22.287107,
+      "lng": 114.149339,
+      "why": "Gaufres à bulles (gai daan jai) faites minute.",
+      "order": [
+        "Egg waffle"
+      ],
+      "source": {
+        "account": "@tenea.eats",
+        "url": "https://www.instagram.com/p/DfdiCNgTrlZ/"
+      }
+    },
+    {
+      "id": "ladies-street-sik-faan",
+      "name": "Ladies Street Sik Faan Co.",
+      "type": "food",
+      "tags": [
+        "cantonais",
+        "rétro"
+      ],
+      "district": "Mong Kok",
+      "address": "1/F, Shop B, 1A-1L Tung Choi Street, Mong Kok",
+      "lat": 22.316304,
+      "lng": 114.171014,
+      "why": "Cuisine cantonaise dans un décor néo-rétro, juste au-dessus du Ladies' Market.",
+      "order": [],
+      "source": {
+        "account": "@tenea.eats",
+        "url": "https://www.instagram.com/p/DfdiCNgTrlZ/"
+      }
+    },
+    {
+      "id": "kai-kai-dessert",
+      "name": "Kai Kai Dessert",
+      "nameZh": "佳佳甜品",
+      "type": "food",
+      "tags": [
+        "dessert"
+      ],
+      "district": "Jordan",
+      "address": "G/F, 113-115 Parkes Street, Jordan",
+      "lat": 22.306626,
+      "lng": 114.170851,
+      "why": "Desserts cantonais traditionnels (soupe de sésame noir, tangyuan). À deux rues d'Australia Dairy Company.",
+      "order": [
+        "Tangyuan au sésame noir"
+      ],
+      "source": {
+        "account": "@tenea.eats",
+        "url": "https://www.instagram.com/p/DfdiCNgTrlZ/"
+      }
+    },
+    {
+      "id": "icegreen",
+      "name": "Icegreen",
+      "type": "food",
+      "tags": [
+        "dessert",
+        "glace pilée"
+      ],
+      "district": "Causeway Bay",
+      "address": "520 Jaffe Road, Causeway Bay",
+      "lat": 22.281074,
+      "lng": 114.183841,
+      "why": "Glace pilée nappée de lait, en dessert.",
+      "order": [],
+      "source": {
+        "account": "@tenea.eats",
+        "url": "https://www.instagram.com/p/DfdiCNgTrlZ/"
+      }
+    },
+    {
+      "id": "kuma-ramen",
+      "name": "Kuma Ramen",
+      "type": "food",
+      "tags": [
+        "ramen",
+        "près de l'hôtel"
+      ],
+      "district": "Sheung Wan",
+      "address": "G/F, 84 Jervois Street, Sheung Wan",
+      "lat": 22.284982,
+      "lng": 114.151121,
+      "why": "Ramen recommandés par @eat.with.kels.",
+      "order": [],
+      "source": {
+        "account": "@eat.with.kels",
+        "url": "https://www.instagram.com/p/DfhO3SLTPY0/"
+      }
+    },
+    {
+      "id": "emmer-pizza",
+      "name": "Emmer Pizzeria & Café",
+      "type": "food",
+      "tags": [
+        "pizza"
+      ],
+      "district": "Admiralty",
+      "address": "Shop 407, Level 4, Pacific Place, 88 Queensway, Admiralty",
+      "lat": 22.277571,
+      "lng": 114.164897,
+      "why": "Pizzeria recommandée par @eat.with.kels.",
+      "order": [],
+      "source": {
+        "account": "@eat.with.kels",
+        "url": "https://www.instagram.com/p/DfhO3SLTPY0/"
+      }
+    },
+    {
+      "id": "sushi-raku",
+      "name": "Sushi Raku",
+      "type": "food",
+      "tags": [
+        "sushi"
+      ],
+      "district": "Central",
+      "address": "G/F-1/F, Yip Fung Building, 18 D'Aguilar Street, Central",
+      "lat": 22.281301,
+      "lng": 114.155966,
+      "why": "Comptoir à sushis recommandé par @eat.with.kels, à Lan Kwai Fong.",
+      "order": [],
+      "source": {
+        "account": "@eat.with.kels",
+        "url": "https://www.instagram.com/p/DfhO3SLTPY0/"
+      }
+    },
+    {
+      "id": "pmq",
+      "name": "PMQ",
+      "nameZh": "元創方",
+      "type": "shopping",
+      "tags": [
+        "design HK",
+        "expos gratuites"
+      ],
+      "district": "Central",
+      "address": "35 Aberdeen Street, Central",
+      "lat": 22.28345,
+      "lng": 114.151734,
+      "why": "Anciens logements de la police reconvertis en centre de design : plus de 100 marques hongkongaises, expos gratuites, cafés, à l'abri de la pluie. On y trouve les horloges à palettes Twemco.",
+      "order": [
+        "Horloge Twemco"
+      ],
+      "source": {
+        "account": "@kuaile.x",
+        "url": "https://www.instagram.com/p/DclMfDlTijH/"
       }
     }
   ]
